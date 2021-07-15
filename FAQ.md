@@ -29,3 +29,9 @@ We did not verify this code. Because we just modify LRS3 and VoxCeleb2 to build 
 
 ### 10. How big your model ? How long for training?
 Our model has 15.01M params, in one 22G GPU, each epoch we train 15 mins, evaluate in val set takes 5 mins. Train 25 epochs can get the best result. So at most 7 hours.
+
+### 11. Error: RuntimeError: CUDA error: no kernel image is available for execution on the device
+Do "pip install --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cu111/torch_nightly.html -U", check this [page](https://github.com/pytorch/pytorch/issues/31285#issuecomment-739139454).
+
+### 12. Can not download csv, video data or pretrain model ?
+I use google drive to upload the pretrain model and csv files. So you need to make sure you can use google drive under your internet. The error during extract video clips can be ignored.

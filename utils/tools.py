@@ -22,12 +22,13 @@ def init_args(args):
         args.evalCsvSave  = os.path.join(args.savePath,     'test_res.csv')
     
     os.makedirs(args.modelSavePath, exist_ok = True)
+    os.makedirs(args.dataPathAVA, exist_ok = True)
     return args
  
 
 def download_pretrain_model_AVA():
     if os.path.isfile('pretrain_AVA.model') == False:
-        Link = "1okP60b5FLoZWzP4dT1wpeLWb8o5NpGOa"
+        Link = "1NVIkksrD3zbxbDuDbPc_846bLfPSZcZm"
         cmd = "gdown --id %s -O %s"%(Link, 'pretrain_AVA.model')
         subprocess.call(cmd, shell=True, stdout=None)
 

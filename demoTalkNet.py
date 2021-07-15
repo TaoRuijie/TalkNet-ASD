@@ -39,7 +39,7 @@ parser.add_argument('--colSavePath',           type=str, default="/data08/col", 
 args = parser.parse_args()
 
 if os.path.isfile(args.pretrainModel) == False: # Download the pretrained model
-    Link = "1okP60b5FLoZWzP4dT1wpeLWb8o5NpGOa"
+    Link = "1AbN9fCf9IexMxEKXLQY2KYBlb-IhSEea"
     cmd = "gdown --id %s -O %s"%(Link, args.pretrainModel)
     subprocess.call(cmd, shell=True, stdout=None)
 

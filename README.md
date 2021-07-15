@@ -96,7 +96,7 @@ You can put the raw video (`.mp4` and `.avi` are both fine) into the `demo` fold
 #### Usage
 
 ```
-python demoTalkNet.py --video_name 001
+python demoTalkNet.py --videoName 001
 ```
 
 A pretrain model in TalkSet will be downloaded into `TalkNet_ASD/pretrain_TalkSet.model`. The structure of the output reults can be found in [here](https://github.com/TaoRuijie/TalkNet_ASD/blob/main/demoTalkNet.py#L351).
