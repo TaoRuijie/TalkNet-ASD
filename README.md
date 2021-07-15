@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ***
 
-### TalkNet in AVA-Activespeaker dataset
+## TalkNet in AVA-Activespeaker dataset
 
 #### Data preparation
 
@@ -58,7 +58,7 @@ The pretrained model will automaticly be downloaded into `TalkNet_ASD/pretrain_A
 
 ***
 
-### TalkNet in TalkSet and Columbia ASD dataset
+## TalkNet in TalkSet and Columbia ASD dataset
 
 #### Data preparation
 
@@ -85,7 +85,7 @@ Also, Columnbia ASD dataset and the labels will be downloaded into `colDataPath`
 (This result is different from that in our paper because we train the model again, while the avg. F1 is very similar)
 ***
 
-### An ASD Demo with pretrained TalkNet model
+## An ASD Demo with pretrained TalkNet model
 
 #### Data preparation
 
@@ -99,7 +99,7 @@ You can put the raw video (`.mp4` and `.avi` are both fine) into the `demo` fold
 python demoTalkNet.py --video_name 001
 ```
 
-A pretrain model in TalkSet will be downloaded into `TalkNet_ASD/pretrain_TalkSet.model`. The structure of the output reults can be found in [here](https://github.com/TaoRuijie/TalkNet_ASD/blob/main/demoTalkNet.py#L351)
+A pretrain model in TalkSet will be downloaded into `TalkNet_ASD/pretrain_TalkSet.model`. The structure of the output reults can be found in [here](https://github.com/TaoRuijie/TalkNet_ASD/blob/main/demoTalkNet.py#L351).
 
 You can get the output video `demo/001/pyavi/video_out.avi`, which has marked the active speaker by green box and non-active speaker by red box.
 
