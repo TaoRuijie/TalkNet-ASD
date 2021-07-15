@@ -30,8 +30,8 @@ parser.add_argument('--numFailedDet',          type=int,   default=10,   help='N
 parser.add_argument('--minFaceSize',           type=int,   default=1,    help='Minimum face size in pixels')
 parser.add_argument('--cropScale',             type=float, default=0.40, help='Scale bounding box')
 
-parser.add_argument('--start',                 type=int, default=10,   help='The start time of the video')
-parser.add_argument('--duration',              type=int, default=20,  help='The duration of the video, when set as 0, will extract the whole video')
+parser.add_argument('--start',                 type=int, default=0,   help='The start time of the video')
+parser.add_argument('--duration',              type=int, default=0,  help='The duration of the video, when set as 0, will extract the whole video')
 
 parser.add_argument('--evalCol',               dest='evalCol', action='store_true', help='Evaluate on Columnbia dataset')
 parser.add_argument('--colSavePath',           type=str, default="/data08/col",  help='Path for inputs, tmps and outputs')
@@ -358,7 +358,7 @@ def main():
 	# │   ├── audio.wav (Audio from input video)
 	# │   ├── video.avi (Copy of the input video)
 	# │   ├── video_only.avi (Output video without audio)
-	# │   └── video_out_pretrain_TalkSet.model_001.avi  (Output video with audio)
+	# │   └── video_out.avi  (Output video with audio)
 	# ├── pycrop (The detected face videos and audios)
 	# │   ├── 000000.avi
 	# │   ├── 000000.wav
@@ -369,7 +369,6 @@ def main():
 	# │   ├── 000001.jpg
 	# │   ├── 000002.jpg
 	# │   └── ...	
-	# ├── pyvisual
 	# └── pywork
 	#     ├── faces.pckl (face detection result)
 	#     ├── scene.pckl (scene detection result)
