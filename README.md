@@ -20,12 +20,12 @@ Start from building the environment
 ```
 conda create -n TalkNet python=3.7.9 anaconda
 conda activate TalkNet
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 Start from the existing environment
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ***
