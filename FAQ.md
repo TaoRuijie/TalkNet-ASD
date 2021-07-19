@@ -15,6 +15,8 @@ Do "pip install --pre torch torchvision -f https://download.pytorch.org/whl/nigh
 ### 5. Can not download csv, video data or pretrain model ?
 I use google drive to upload the pretrain model and csv files. So you need to make sure you can use google drive under your internet. The error during extract video clips can be ignored.
 
+***
+
 ## TalkNet in AVA-Activespeaker dataset
 
 ### 1. Can not reimplement the result ?
@@ -29,6 +31,7 @@ There are three labels: SPEAKING_AND_AUDIBLE, SPEAKING_BUT_NOT_AUDIBLE, NOT_SPEA
 ### 4. How big your model ? How long for training?
 Our model has 15.01M params, in one 22G GPU, each epoch we train 15 mins, evaluate in val set takes 5 mins. Train 25 epochs can get the best result. So at most 7 hours.
 
+***
 
 ## TalkNet in TalkSet and Columbia ASD dataset
 
@@ -39,6 +42,7 @@ Due to that, we build TalkSet, the face in TalkSet is all detected by S3FD. So f
 ### 2. TalkSet code can not work?
 We did not verify this code. Because we just modify LRS3 and VoxCeleb2 to build this set, so we do not (or cannot) upload this set. This `generate_TalkSet.py` is what we used to generate this dataset, and we did not check it later. So it just used for your reference. We have already provide the data list, so you can generate this dataset based on it.
 
+***
 
 ## An ASD Demo with pretrained TalkNet model
 
