@@ -11,6 +11,8 @@
 - Assunção G, Gonçalves N, Menezes P. [Bio-Inspired Modality Fusion for Active Speaker Detection](https://www.mdpi.com/2076-3417/11/8/3397/pdf), Applied Sciences, 2021
 - Pouthier B, Pilati L, Gudupudi L K, et al. [Active Speaker Detection as a Multi-Objective Optimization with Uncertainty-based Multimodal Fusion](https://arxiv.org/pdf/2106.03821.pdf), arXiv preprint, 2021
 - Köpüklü O, Taseska M, Rigoll G. [How to Design a Three-Stage Architecture for Audio-Visual Active Speaker Detection in the Wild](https://arxiv.org/pdf/2106.03932.pdf), arVix preprint, 2021
+- Ruijie Tao, Zexu Pan, Rohan Kumar Das, Xinyuan Qian, Mike Zheng Shou, Haizhou Li. [Is Someone Speaking? Exploring Long-term Temporal Features for Audio-visual Active Speaker Detection](https://arxiv.org/pdf/2107.06592.pdf), ACM Multimedia (MM), 2021
+
 
 ### Research Report In **AVA-ActiveSpeaker Dataset for AVA-Activity Challenge**
 - Chung J S. [Naver at ActivityNet Challenge 2019--Task B Active Speaker Detection (AVA)](https://arxiv.org/pdf/1906.10555.pdf), 2019.
