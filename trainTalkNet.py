@@ -14,7 +14,7 @@ def main():
     parser.add_argument('--lrDecay',      type=float, default=0.95,  help='Learning rate decay rate')
     parser.add_argument('--maxEpoch',     type=int,   default=25,    help='Maximum number of epochs')
     parser.add_argument('--testInterval', type=int,   default=1,     help='Test and save every [testInterval] epochs')
-    parser.add_argument('--batchSize',    type=int,   default=2500,  help='Dynamic batch size, default is 2500 frames, may little effort the result (did not try)')
+    parser.add_argument('--batchSize',    type=int,   default=2500,  help='Dynamic batch size, default is 2500 frames, other batchsize (such as 1500) will not affect the performance')
     parser.add_argument('--nDataLoaderThread', type=int, default=4,  help='Number of loader threads')
     # Data path
     parser.add_argument('--dataPathAVA',  type=str, default="/data08/AVA", help='Save path of AVA dataset')
