@@ -1,18 +1,18 @@
-## General Question
+## 1. General Question
 
-### 1. Which dataset is used for training and testing ?
+### 1.1 Which dataset is used for training and testing ?
 'pretrain_AVA.model' is trained on the AVA training set and evaluate on the AVA val/test set, (Has the entire code)
 'pretrain_TalkSet.model' is trained on our TalkSet and evaluate on the Columbia ASD set or other raw videos.
 
-### 2. How to figure the variable length of data during training ?
+### 1.2 How to figure the variable length of data during training ?
 We design a scheme to feed the variable-length data into the same mini-batch: we sort all videos by their length and put the videos with similar length into the same batch. We crop all videos into the minimum number of frames in this batch. In this way, we train the TalkNet with videos of different length without losing too much data. 
 
-### 3. How to figure multiple faces on the screen ?
+### 1.3 How to figure multiple faces on the screen ?
 In the ASD task, when there are multiple face tracks in the video, we consider one track at a time. The face track of interest is given in each test trial. You can also consider the relationship between the faces on the screen at the same time. There are some papers about that.
-### 4. Error: RuntimeError: CUDA error: no kernel image is available for execution on the device
+### 1.4 Error: RuntimeError: CUDA error: no kernel image is available for execution on the device
 Do "pip install --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cu111/torch_nightly.html -U", check this [page](https://github.com/pytorch/pytorch/issues/31285#issuecomment-739139454).
 
-### 5. Can not download csv, video data or pretrain model ?
+### 1.5 Can not download csv, video data or pretrain model ?
 I use google drive to upload the pretrain model and csv files. So you need to make sure you can use google drive under your internet. The error during extract video clips can be ignored.
 
 ***
