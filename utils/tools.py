@@ -81,7 +81,7 @@ def download_csv(args):
     os.remove(args.dataPathAVA + '/csv.tar.gz')
 
 def download_videos(args): 
-    # Take 6 hours to download the original movies
+    # Take 6 hours to download the original movies, follow this repository: https://github.com/cvdfoundation/ava-dataset
     for dataType in ['trainval', 'test']:
         fileList = open('%s/%s_file_list.txt'%(args.trialPathAVA, dataType)).read().splitlines()   
         outFolder = '%s/%s'%(args.visualOrigPathAVA, dataType)
