@@ -8,7 +8,7 @@ from loss import lossAV, lossA, lossV
 from model.talkNetModel import talkNetModel
 
 class talkNet(nn.Module):
-    def __init__(self, epoch = 1, lr = 0.0001, lrDecay = 0.95, **kwargs):
+    def __init__(self, lr = 0.0001, lrDecay = 0.95, **kwargs):
         super(talkNet, self).__init__()        
         self.model = talkNetModel().cuda()
         self.lossAV = lossAV().cuda()
