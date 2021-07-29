@@ -2,9 +2,9 @@ import os, torch, numpy, cv2, random, glob, python_speech_features
 from scipy.io import wavfile
 from torchvision.transforms import RandomCrop
 
-def generate_audio_set(dataPath, batchLst):
+def generate_audio_set(dataPath, batchList):
     audioSet = {}
-    for line in batchLst:
+    for line in batchList:
         data = line.split('\t')
         videoName = data[0][:11]
         dataName = data[0]
@@ -104,11 +104,11 @@ class train_loader(object):
           start = end     
 
     def __getitem__(self, index):
-        batchLst    = self.miniBatch[index]
-        numFrames   = int(batchLst[-1].split('\t')[1])
+        batchList    = self.miniBatch[index]
+        numFrames   = int(batchList[-1].split('\t')[1])
         audioFeatures, visualFeatures, labels = [], [], []
-        audioSet = generate_audio_set(self.audioPath, batchLst) # load the audios in this batch to do augmentation
-        for line in batchLst:
+        audioSet = generate_audio_set(self.audioPath, batchList) # load the audios in this batch to do augmentation
+        for line in batchList:
             data = line.split('\t')            
             audioFeatures.append(load_audio(data, self.audioPath, numFrames, audioAug = True, audioSet = audioSet))  
             visualFeatures.append(load_visual(data, self.visualPath,numFrames, visualAug = True))
