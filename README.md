@@ -109,9 +109,9 @@ You can get the output video `demo/001/pyavi/video_out.avi`, which has marked th
 
 Please cite the following if our paper or code is helpful to your research.
 ```
-@article{tao2021TalkNet,
+@article{tao2021someone,
   title={Is Someone Speaking? Exploring Long-term Temporal Features for Audio-visual Active Speaker Detection},
-  author={Ruijie Tao, Zexu Pan, Rohan Kumar Das, Xinyuan Qian, Mike Zheng Shou, Haizhou Li},
+  author={Tao, Ruijie and Pan, Zexu and Das, Rohan Kumar and Qian, Xinyuan and Shou, Mike Zheng and Li, Haizhou},
   journal={ACM Multimedia (MM)},
   year={2021}
 }
