@@ -12,6 +12,8 @@
 - Pouthier B, Pilati L, Gudupudi L K, et al. [Active Speaker Detection as a Multi-Objective Optimization with Uncertainty-based Multimodal Fusion](https://arxiv.org/pdf/2106.03821.pdf), arXiv preprint, 2021
 - Köpüklü O, Taseska M, Rigoll G. [How to Design a Three-Stage Architecture for Audio-Visual Active Speaker Detection in the Wild](https://arxiv.org/pdf/2106.03932.pdf), arVix preprint, 2021
 - Ruijie Tao, Zexu Pan, Rohan Kumar Das, Xinyuan Qian, Mike Zheng Shou, Haizhou Li. [Is Someone Speaking? Exploring Long-term Temporal Features for Audio-visual Active Speaker Detection](https://arxiv.org/pdf/2107.06592.pdf), ACM Multimedia (MM), 2021
+- Yuanhang Zhang, Susan Liang, Shuang Yang, Xiao Liu, Zhongqin Wu, Shiguang Shan, Xilin Chen. [UniCon: Unified Context Network for Robust Active Speaker
+Detection](https://arxiv.org/pdf/2108.02607.pdf), ACM Multimedia (MM), 2021
 
 
 ### Research Report In **AVA-ActiveSpeaker Dataset for AVA-Activity Challenge**
