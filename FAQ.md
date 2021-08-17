@@ -47,8 +47,8 @@ We did not verify this code. Because we just modify LRS3 and VoxCeleb2 to build 
 ## 4. An ASD Demo with pretrained TalkNet model
 
 ### 4.1 I try the demo, the performance is not so good ?
-You can check the demo video `001.mp4` first and compare your output and our result `001_res.mp4` to make sure what you did is correct. So if you are not statisfied with the performance. We are sorry about that (~cry~). We think this model can further improve. For the very short clips (less than 1s), small face and side face, the performance is not so good. 
+You can check the demo video `001.mp4` first and compare your output and our result `001_res.mp4` to make sure what you did is correct. So if you are not statisfied with the performance. We are sorry about that (~cry). We think this model can further improve. For the very short clips (less than 1s), small face and side face, the performance is not so good. 
 
 ### 4.2 I try the demo, the face can not be detected ?
-That is the reason for the face detection model instead of the ASD part. You can use better face detecion model such as Insightface. Only when the face can be detected, ASD model can perform to get the ASD labels.
-
+That is the reason for the face detection model instead of the ASD part. You can use better face detecion model such as (Insightface)[https://github.com/deepinsight/insightface
+]. Only when the face can be detected, ASD model can perform to get the ASD labels.
