@@ -35,3 +35,4 @@ Detection (AVA)](https://static.googleusercontent.com/media/research.google.com/
 - Beyan C, Shahid M, Murino V. [RealVAD: A real-world dataset and a method for voice activity detection by body motion analysis](https://ieeexplore.ieee.org/document/9133504), IEEE Transactions on Multimedia, 2020.
 
 ### Other Paper for Active Speaker Detection
+- Kim, You Jin and Heo, Hee-Soo Heo, et al. [Look Who’s Talking: Active Speaker Detection in the Wild](https://arxiv.org/pdf/2108.07640.pdf), 2021
