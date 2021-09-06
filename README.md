@@ -123,7 +123,7 @@ I have summaried some potential [FAQs](https://github.com/TaoRuijie/TalkNet_ASD/
 
 We study many useful projects in our codeing process, which includes:
 
-The structure of the whole project and the audio encoder is learnt from this [repository](https://github.com/clovaai/voxceleb_trainer).
+The structure of the project layout and the audio encoder is learnt from this [repository](https://github.com/clovaai/voxceleb_trainer).
 
 Demo for visulization is modified from this [repository](https://github.com/joonson/syncnet_python).
 
