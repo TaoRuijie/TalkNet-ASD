@@ -124,8 +124,11 @@ I have summaried some potential [FAQs](https://github.com/TaoRuijie/TalkNet_ASD/
 We study many useful projects in our codeing process, which includes:
 
 The structure of the whole project and the audio encoder is learnt from this [repository](https://github.com/clovaai/voxceleb_trainer).
+
 Demo for visulization is modified from this [repository](https://github.com/joonson/syncnet_python).
+
 AVA data download code is learnt from this [repository](https://github.com/fuankarion/active-speakers-context).
+
 The model for the visual frontend is learnt from this [repository](https://github.com/lordmartian/deep_avsr).
 
 Thanks for these authors to open source their code!
