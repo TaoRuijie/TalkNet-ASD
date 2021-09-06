@@ -118,3 +118,14 @@ Please cite the following if our paper or code is helpful to your research.
 ```
 
 I have summaried some potential [FAQs](https://github.com/TaoRuijie/TalkNet_ASD/blob/main/FAQ.md). This is my first open-source work, please let me know if I can future improve in this repositories or there is anything wrong in our work. Thanks for your support!
+
+### Acknowledge
+
+We study many useful projects in our codeing process, which includes:
+
+The structure of the whole project and the audio encoder is learnt from this [repository](https://github.com/clovaai/voxceleb_trainer).
+Demo for visulization is modified from this [repository](https://github.com/joonson/syncnet_python).
+AVA data download code is learnt from this [repository](https://github.com/fuankarion/active-speakers-context).
+The model for the visual frontend is learnt from this [repository](https://github.com/lordmartian/deep_avsr).
+
+Thanks for these authors to open source their code!
