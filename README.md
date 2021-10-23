@@ -109,13 +109,13 @@ You can get the output video `demo/001/pyavi/video_out.avi`, which has marked th
 
 Please cite the following if our paper or code is helpful to your research.
 ```
-@article{tao2021someone,
+@inproceedings{tao2021someone,
   title={Is Someone Speaking? Exploring Long-term Temporal Features for Audio-visual Active Speaker Detection},
   author={Tao, Ruijie and Pan, Zexu and Das, Rohan Kumar and Qian, Xinyuan and Shou, Mike Zheng and Li, Haizhou},
-  journal={ACM Multimedia (MM)},
+  booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},
+  pages = {3927–3935},
   year={2021}
 }
-```
 
 I have summaried some potential [FAQs](https://github.com/TaoRuijie/TalkNet_ASD/blob/main/FAQ.md). This is my first open-source work, please let me know if I can future improve in this repositories or there is anything wrong in our work. Thanks for your support!
 
