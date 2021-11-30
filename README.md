@@ -103,6 +103,8 @@ A pretrain model in TalkSet will be downloaded into `TalkNet_ASD/pretrain_TalkSe
 
 You can get the output video `demo/001/pyavi/video_out.avi`, which has marked the active speaker by green box and non-active speaker by red box.
 
+If you want to evaluate by using cpu only, you can modify `demoTalkNet.py` and `talkNet.py` file: modify all `cuda` into `cpu`. Then replace line 83 in talkNet.py into `loadedState = torch.load(path,map_location=torch.device('cpu'))`
+
 ***
 
 ### Citation
