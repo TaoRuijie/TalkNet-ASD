@@ -230,7 +230,7 @@ def evaluate_network(files, args):
 				break
 		video.release()
 		videoFeature = numpy.array(videoFeature)
-		length = min((audioFeature.shape[0] - audioFeature.shape[0] % 4) / 100, videoFeature.shape[0])
+		length = min((audioFeature.shape[0] - audioFeature.shape[0] % 4) / 100, videoFeature.shape[0] / 25)
 		audioFeature = audioFeature[:int(round(length * 100)),:]
 		videoFeature = videoFeature[:int(round(length * 25)),:,:]
 		allScore = [] # Evaluation use TalkNet
