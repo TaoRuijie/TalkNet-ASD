@@ -139,4 +139,4 @@ Thanks for these authors to open source their code!
 
 ### Cooperation
 
-If you are interested to work on this topic, I am glad to collaborate and contribute my experiences & knowlegde in this topic. Please contact me with ruijie.tao@u.nus.edu.
+If you are interested to work on this topic and have some ideas to implement, I am glad to collaborate and contribute with my experiences & knowlegde in this topic. Please contact me with ruijie.tao@u.nus.edu.
