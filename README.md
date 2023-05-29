@@ -136,3 +136,7 @@ AVA data download code is learnt from this [repository](https://github.com/fuank
 The model for the visual frontend is learnt from this [repository](https://github.com/lordmartian/deep_avsr).
 
 Thanks for these authors to open source their code!
+
+### Cooperation
+
+If you are interested to work on this topic, I am glad to collaborate and contribute my experiences & knowlegde in this topic. Please contact me with ruijie.tao@u.nus.edu.
